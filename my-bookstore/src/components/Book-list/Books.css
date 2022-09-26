@@ -1,0 +1,102 @@
+.booksCard{
+    border: 1px solid #E2E2E2;
+    width: 17vw;
+    height: 38vh;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    margin-top: 20px;
+}
+
+.booksImg{
+    /* border: 1px solid yellow; */
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F5;
+}
+
+.bookImage{
+    height: 80%;
+}
+
+.booksDetails{
+    /* border: 1px solid green; */
+    width: 80%;
+    height: 40%;    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+*{
+    margin: 0;
+}
+
+.bookName{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.priceDiv{
+    display: flex;
+}
+
+.priceTag{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.OriginalPrice{
+    font-size: 12px;
+    font-weight: 500;
+    color: gray; 
+    text-decoration: line-through; 
+    margin-left:10px;  
+}
+
+.ratingBtn{
+    border: none;
+    background-color: #388E3C;
+    color: white;
+}
+@media screen and (min-width:320px) and (max-width:480px) {
+    .booksCard{
+        width: 100%;
+        height: 230px;
+    }    
+
+    .booksDetails{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+    .booksCard{
+        width: 46%;
+        height: 230px;
+    }    
+
+    .booksDetails{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .booksCard{
+        width: 30%;
+        height: 235px;
+    }    
+
+    .booksDetails{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,106 @@
+.myWishlist{
+    /* border: 1px solid red; */
+    width: 100vw;
+    /* height: 80vh; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.myWishlistDiv{
+   width: 85%;
+   height: 100%;
+   /* border: 1px solid red; */
+   background-color: #FFFFFF;
+}
+
+#idBookTextwish{
+   width: 100%;
+   height: 5%;
+   display: flex;
+}
+
+.textWishlist{
+   border: 1px solid #E4E4E4;
+   width: 70%;
+   height: 28px;
+   background-color: #F5F5F5;
+   display: flex;
+   margin-top: 20px;
+   /* padding-left:15px ; */
+}
+
+.detailsWish{
+   border: 1px solid #E4E4E4;
+   width: 70%;
+   height: 180px;   
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+
+.innerDivWish{
+   /* border: 1px solid #E4E4E4; */
+   width: 95%;
+   height: 92%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.bookImageWish{
+   /* border: 1px solid red; */
+   background-size:cover ;
+   width: 18%;
+   height: 100%;
+   /* object-fit: contain; */
+   /* -webkit-transform: translateZ(0); */
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+   .textWishlist{
+       width: 100%;
+   }
+   
+   .detailsWish{
+       width: 100%;
+   }  
+   
+   .bookImageWish{
+       width: 60%;
+       height: 105px;
+   }
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+   .textWishlist{
+       width: 100%;
+   }
+   
+   .detailsWish{
+       width: 100%;
+   }
+
+   .bookImageWish{
+       width: 45%;
+       height: 105px;
+   }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+   .textWishlist{
+       width: 100%;
+   }
+   
+   .detailsWish{
+       width: 100%;
+   }
+
+   .bookImageWish{
+       width: 35%;
+       height: 110px;
+   }
+}

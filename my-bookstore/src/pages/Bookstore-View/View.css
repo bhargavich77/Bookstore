@@ -1,0 +1,257 @@
+.view{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.quickViewDiv{
+    /* border: 1px solid blue; */
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#idBookTextView{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+}
+
+.viewRow{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.imgViewC{
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 5%;
+    height: 100px;
+    
+}
+
+.bookImageView{
+    /* border: 1px solid green; */
+    background-size:cover ;
+    width: 90%;
+    height: 45px;
+}
+
+.bookImgDiv{
+    /* border: 1px solid grey; */
+    width: 20%;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+}
+
+.largeImgDiv{
+    border: 1px solid #D1D1D1;
+    border-radius: 2px;
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.largeBookImage{
+    width: 90%;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+}
+
+.btnView{
+    /* border: 1px solid green; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#bagBtn{
+    width: 46%;
+    height: 50%;
+    background-color: #A03037;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+
+#wishlistBtn{
+    width: 46%;
+    height: 50%;   
+    background-color: #333333;
+    color: white;
+    border: none;
+    border-radius: 2px; 
+}
+
+.detailsView{
+    /* border: 1px solid gray; */
+    width: 60%;
+    /* height: auto; */
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.ratingBtnView{
+    border: none;
+    background-color: #388E3C;
+    color: white;
+}
+
+.priceDivView{
+    display: flex;
+}
+
+.priceTagView{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.OriginalPriceView{
+    font-size: 14px;
+    font-weight: 500;
+    color: gray;
+}
+
+.bookNameView{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.authorView{
+    color: gray;
+}
+
+.overallRating{
+    /* border: 1px solid grey; */
+    width: 100%;
+    height: 45%;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.textAreaInput{
+    margin-left: 5px;
+    width: 98%;
+    height: 75px;
+    color: #D1D1D1;
+    border: none;
+    
+}
+
+.btnSubmitFeed{
+    margin-right: 6px;
+    margin-left: auto;
+    border: none;
+    background-color: #3371B5;
+    color: white;
+    height: 45px;
+    border-radius: 5px;
+}
+
+.feedBack{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.feedbackName{
+    display: flex;
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .view{
+        width: 100%;
+        height: auto;
+    }   
+    
+    .viewRow{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imgViewC{
+        display: none;
+    }
+
+    .bookImgDiv{
+        width: 100%;
+        height: auto;
+    }
+
+    .detailsView{
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+    .view{
+        width: 100%;
+        height: auto;
+    }   
+    
+    .viewRow{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imgViewC{
+        display: none;
+    }
+
+    .bookImgDiv{
+        width: 100%;
+        height: auto;
+    }
+
+    .detailsView{
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .btnView{
+        height: 50%;
+    }
+
+    .bookImgDiv{
+        width: 35%;
+    }
+}

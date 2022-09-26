@@ -1,0 +1,34 @@
+.textDivSignup{
+    
+    width: 100%;
+    height: 250px;
+    background-color: white;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.text2Sign{
+   width: 70%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+
+.textboxSignup {
+   margin-top:-55px;
+   width: 100%;
+   margin-bottom:80px;
+   height: 16%;
+   display: flex;
+   flex-direction: column;
+}
+
+.btnSignup{
+   width: 100%;
+   margin-top:-50px;
+}

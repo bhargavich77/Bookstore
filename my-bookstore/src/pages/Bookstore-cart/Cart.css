@@ -1,0 +1,353 @@
+.myCartDiv{
+    /* border: 1px solid red; */
+    width: 100vw;
+    /* height: 80vh; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.myCart{
+    width: 85%;
+    /* height: 100%; */
+    /* border: 1px solid red; */
+    background-color: #FFFFFF;
+}
+
+#idBookTextCart{
+    /* border: 1px solid gold; */
+    width: 100%;
+    height: 5%;
+    display: flex;
+    margin-top: 20px;
+}
+
+.myCartBook{
+    border: 1px solid #DBDBDB;
+    width: 70%;
+    /* height: 185px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.bookBox{
+    /* border: 1px solid red; */
+    width: 95%;
+    height: 90%;
+}
+
+.myCartText{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bookNImg{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 60%;
+    margin-top: 25px;
+}
+
+.bookImageCart{
+    background-size:cover ;
+    width: 20%;
+    height: 70%;
+}
+
+.btnPM{
+    /* border: 1px solid rebeccapurple; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 150px;
+}
+
+#btnSign{
+    border: 1px solid #DBDBDB;
+    border-radius: 50%;
+    width: 18px;
+    background-color: #FAFAFA;
+}
+
+#btnNo{
+    border: 1px solid #DBDBDB;    
+    width: 25px;
+    background-color: #FAFAFA;
+}
+
+.btnPlace{
+    float: right;
+    width: 18%;
+    height: 30px;
+    background-color: #3371B5;
+    color: white;
+    border: none;
+    margin-bottom: 15px;
+}
+
+.boxExternal{
+    border: 1px solid #DBDBDB;
+    width: 70%;
+    height: 38px;
+    margin-top: 15px;
+}
+
+#textP{
+    text-align: left;
+    margin-left: 20px;
+}
+
+/* customer details */
+.customerDetails{
+    /* width: 100vw; */
+    border: 1px solid #DBDBDB;
+    width: 70%;
+    /* height: 40%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.customerDiv{
+    width: 95%;
+    height: 310px;
+    /* border: 1px solid red; */
+    background-color: #FFFFFF;    
+}
+
+.customerText{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btnAdd{
+    width: 18%;
+    height: 30px;
+    border: 1px solid #A03037;
+    color: #A03037 ;
+    background-color: #FFFFFF;
+}
+
+.inputBoxNM{
+    /* border: 1px solid red; */
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.inputName{
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 48%;
+}
+
+.inputMNumber{
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    width: 48%;   
+}
+
+#inputBoxName{
+    width: 100%;
+    height: 28px;
+}
+
+#inputBoxMNo{
+    width: 100%;
+    height: 28px;    
+}
+
+.textAreaDiv{
+    /* border:  1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* width: 100%;     */
+}
+
+#textArea{
+    width: 65%;
+    /* height: 40%; */
+}
+
+.inputBoxCityS{
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+}
+
+.inputCity{
+     /* border: 1px solid blue; */
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     align-items: flex-start;
+     width: 48%;
+}
+
+#inputBoxCity{
+    width: 100%;
+    height: 28px;    
+}
+
+.inputState{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    width: 48%;     
+}
+
+#inputBoxState{
+    width: 100%;
+    height: 28px;    
+}
+
+.typeRadio{
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.btnContinue{
+    float: right;
+    width: 18%;
+    height: 30px;
+    background-color: #3371B5;
+    color: white;
+    border: none;    
+}
+
+/* Order summary start here */
+.orderSummary{
+    border: 1px solid #DBDBDB;
+    width: 70%;
+    /* height: 40%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px; 
+}
+
+.orderSummaryDiv{
+    width: 95%;
+    /* height: 210px; */
+    /* border: 1px solid red; */
+    background-color: #FFFFFF;      
+}
+
+.btnCheckOut{
+    float: right;
+    width: 18%;
+    height: 30px;
+    background-color: #3371B5;
+    color: white;
+    border: none;   
+}
+@media screen and (min-width:320px) and (max-width:480px) {
+    .myCartBook{
+        width: 100%;
+    }   
+    
+    .bookNImg{
+        width: 100%;
+    }
+
+    .bookImageCart{
+        width: 40%;
+    }
+
+    .btnPlace{
+        width: 30%;
+    }
+
+    .customerDetails{
+        width: 100%;
+        height: 390px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .btnAdd{
+        width: 30%;    
+    }
+
+    .inputBoxNM{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .inputName{
+        width: 100%;
+    }
+
+    .inputMNumber{
+        width: 100%;
+    }
+
+    #textArea{
+        width: 95%;
+    }
+
+    .inputBoxCityS{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;    
+    }
+
+    .inputCity{
+        width: 100%;
+    }
+
+    .inputState{
+        width: 100%;
+    }
+
+    .boxExternal{
+        width: 100%;
+    }
+
+    .btnContinue{
+        width: 30%;
+    }
+
+    .orderSummary{
+        width: 100%;
+    }
+
+    .btnCheckOut{
+        width: 30%;
+        margin-bottom: 10px;
+    }
+}
+

@@ -1,0 +1,84 @@
+.headerDiv{
+    /* border: 1px solid red; */
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    background-color: #A03037;
+}
+
+.headerMainDiv{
+    /* border: 1px solid red; */
+    width: 85%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoDiv{
+    /* border: 1px solid red; */
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#bookstoreText{
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: row;
+    width: 15%;
+    color: white;
+}
+
+.searchDiv{
+    /* border: 1px solid red; */
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.profileIcon{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    color: white;
+}
+
+.iconDiv{
+    /* border: 1px solid yellow; */
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+@media screen and (min-width:320px) and (max-width:480px) {
+    .searchDiv{
+        display: none;
+    }   
+    
+    .iconDiv{
+        width: 35%;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+    .searchDiv{
+        width: 55%;
+    } 
+    
+    .iconDiv{
+        width: 24%;
+    }
+}
+

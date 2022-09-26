@@ -1,0 +1,71 @@
+.orderSuccess{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.texting{
+    font-size: 30px;
+}
+
+.headerTextOrder{
+    margin-top: 20px;
+    border: 1px solid #DBDBDB;
+    width: 70%;
+    height: 30px;
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.detailsOrder{
+    border: 1px solid #DBDBDB;
+    width: 70%;
+    height: 70px;
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+}
+
+#emailOrder{
+    border: 1px solid #DBDBDB;
+    width: 33.3%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contactOrder{
+    border: 1px solid #DBDBDB;
+    width: 33.3%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+#addressOrder{
+    border: 1px solid #DBDBDB;
+    width: 33.3%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.btnCS{
+    margin-top: 20px;
+    width: 100%;
+    height: 45px;
+    background-color: #3371B5;
+    border: none;
+    color: white;
+    margin-bottom: 20px;
+}
+.footer-part{
+    margin-top:200px;
+}

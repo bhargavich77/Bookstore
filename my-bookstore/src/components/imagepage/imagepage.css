@@ -1,0 +1,115 @@
+.mainDiv{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #00000029;
+}
+
+.imgDiv{
+    
+    width:25%;
+    height:50%;
+    background-color: white;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+}
+
+.textDiv{
+    
+    width: 25%;
+    height: 56%;
+    background-color: white;
+    z-index: 5;
+    position: relative;
+    right: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.img1{
+    width: 80%;
+    height: 80%;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    border-radius: 100%;
+    width: 80%;
+    height: 85%;
+}
+
+.imgText{
+    width: 100%;
+    height: 20%;
+    font-size: 20px;
+    
+}
+
+#text1{
+    font: normal normal medium 18px/24px Roboto;
+}
+
+.text2{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+    
+}
+.blankDiv{
+    width: 70%;
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .imgDiv{
+        display: none;
+    }
+
+    .textDiv{
+        right: 0;
+        width: 80%;
+        height: 70%;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+    .imgDiv{
+        display: none;
+    }
+
+    .textDiv{
+        right: 0;
+        width: 70%;
+        height: 45%;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .imgDiv{
+        width: 35%;
+        height: 35%;
+    }
+
+    .textDiv{
+        width: 45%;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
