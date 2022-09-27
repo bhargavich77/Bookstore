@@ -8,6 +8,7 @@ import { useNavigate } from "react-router-dom";
 import Box from '@mui/material/Box';
 import Popper from '@mui/material/Popper';
 function Header({setState}) {
+    const [search,setSearch] = React.useState('');
     const navigate = useNavigate();
     const myCart = () => {
         navigate('/Cart')
@@ -38,6 +39,10 @@ function Header({setState}) {
 
         navigate("/");
     }
+    const listenTosearchbar = (e) => {
+        setSearch(e.target.value)
+        
+    }
     return (
     <div>
     <div className='headerDiv'>
@@ -48,7 +53,9 @@ function Header({setState}) {
                     <span >BOOKSTORE</span>
                 </div>
                 <div className='searchDiv' onChange={(event)=>setState(event.target.value)}>
-                    <TextField fullWidth label="search" id="fullWidth" size='small' style={{ width: '100%' }} />
+                <input type='text' className='textbox-search' placeholder='Search...' value={search} onChange={listenTosearchbar} />
+                {/* <input type='text' className='textbox-search' placeholder='Search...' value={search} onChange={(event)=>setState(event.target.value)}></input> */}
+                    {/* <TextField fullWidth label="search" id="fullWidth" size='small' style={{ width: '100%' }} /> */}
                 </div>
             </div>
             <div className='iconDiv'>

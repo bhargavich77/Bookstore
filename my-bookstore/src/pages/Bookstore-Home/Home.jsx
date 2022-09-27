@@ -73,7 +73,7 @@ function Home() {
                 
                 </div>
             </div>
-            <div className='pagination-bar'><Pagination count={bookDetails.length/booksPerPage} onChange={nextPage} page={page} /></div>
+            <div className='pagination-bar'><Pagination count={(Math.ceil(bookDetails.length/booksPerPage))} onChange={nextPage} page={page} /></div>
             <div>
                 <Footer />
             </div>
